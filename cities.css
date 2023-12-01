@@ -1,0 +1,268 @@
+
+
+.navbar{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo{
+    width: fit-content;
+    height: 100%;
+    padding-left: 40px;
+    display: flex;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 40px;
+}
+
+.nav-elements{
+    width: fit-content;
+    height: 100%;
+}
+
+.nav-elements ul{
+    margin-left: 30px;
+}
+
+.nav-elements ul li{
+    display: inline;
+    float: left;
+    margin-right: 40px;
+}
+
+.nav-elements ul li a{
+    font-family: 'Dosis', sans-serif;
+    line-height: 60px;
+    font-weight: 600;
+    color: white;
+    display: block;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+.nav-elements ul li a:hover{
+    color: rgb(41, 107, 41);
+}
+
+.centerWords{
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    top: 32%;
+    left: 35%;
+    color: white;
+}
+.centerWords h1{
+    font-family: 'Great vibes', cursive;
+    font-size: 120px;
+    font-weight: 500px;
+}
+.centerWords p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.oxford-centerWords{
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+    top: 32%;
+    left: 39%;
+    color: white;
+}
+
+.oxford-centerWords h1{
+    font-family: 'Great vibes', cursive;
+    font-size: 120px;
+    font-weight: 500px;
+}
+.oxford-centerWords p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.mySlides{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter:brightness(50%);
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .7}
+    to {opacity: 1}
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.foot-elements{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.foot-elements ul{
+    margin-left: 30px;
+}
+
+.foot-elements ul li{
+    display: inline;
+    float: left;
+    margin-right: 40px;
+}
+
+.foot-elements ul li a{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: rgb(252, 251, 251);
+    display: block;
+    font-size: 20px;
+    font-weight: 600px;
+    padding-top: 6px;
+}
+
+.foot-elements ul li a:hover{
+    color: rgb(41, 107, 41);
+}
+
+.contact{
+    float: right;
+    padding-right: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    color: rgb(252, 251, 251);
+    display: block;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 600px;
+    padding-top: 6px;
+}
+
+.contact:hover{
+    color: rgb(41, 107, 41);
+}
+
+div.gallery{
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+div.gallery img{
+    width: 100%;
+    height: 200px;
+
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+.desc h1{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+  }
+  .desc p{
+    padding-top: 15px;
+    font-family: 'Dosis', sans-serif;
+  }
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive{
+    padding: 0px;
+    float: left;
+    width: 33.2%;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .events{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+
+  .events h1{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .sports-events{
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  .sports-events h1{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .sports-events p{
+    font-family: 'Dosis', sans-serif;
+  }
+
+  .football{
+    padding-top: 20px;
+    font-weight: 1000;
+  }
